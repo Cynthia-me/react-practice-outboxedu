@@ -1,0 +1,19 @@
+.footer__landing__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.footer__landing__form label{
+    padding: 1em;
+    display: flex;
+}
+
+@media only screen and (max-width:400px){
+.footer__landing__form{
+    display: flex;
+    flex-wrap: wrap;
+}
+}

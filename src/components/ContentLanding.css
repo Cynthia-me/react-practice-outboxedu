@@ -1,0 +1,17 @@
+.content__1:nth-child(odd){
+    background-color: rgb(226, 225, 225);
+}
+.content__1:nth-child(even){
+    background-color: whitesmoke;
+}
+@media only screen and (min-width : 600px){
+    .content__1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .content__2{
+        padding: 5px;
+    }
+}
